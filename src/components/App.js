@@ -1,5 +1,6 @@
 import "../styles/App.css";
 import React, { useState, useEffect } from "react";
+import axios from 'axios';
 
 const keys = "abcdefghijklmnopqrstuvwxyz0123456789 ".split("");
 
